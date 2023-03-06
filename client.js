@@ -18,7 +18,7 @@ terminal.on('line', text => {
 });
 
 function displayMessage(message) {
-    console.log('> ${message.username}: ${message.text}');
+    console.log(`> ${message.username}: ${message.text}`);
     displayMessages[message.id] = true;
 }
 
